@@ -1,0 +1,46 @@
+baseurl = "/"
+title = "antoine.network."
+copyright = "Creative Commons Attribution 4.0 International License"
+canonifyurls = true
+languageCode = "en-US"
+paginate = 3
+theme = "hugo-dusk"
+
+[author]
+  name = "7fELF"
+
+SectionPagesMenu = "main"
+
+# use Chroma for syntax highlight
+pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
+# enable syntax highlight for code blocks
+pygmentsCodeFences = true
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
+
+[params.meta]
+  keywords = "blog, tech"
+  description = "Personal blog."
+
+[params]
+  github = "7fELF"
+  twitter = "antoinebaudrand"
+  linkedin = "antoinebaudrand"
+
+[params.colors]
+  # hugo-dusk colors
+  background = "#282828" # background color for the site
+  main = "#458588"
+  text = "#FBF1C7"
+  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
+  copyright = "#FBF1C7" # copyright text color
