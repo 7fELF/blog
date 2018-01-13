@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="7fELF" />
+<meta name="description" content="Personal blog." />
+<meta name="keywords" content="blog, tech" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.32.4" />
+
+<link rel="canonical" href="/tags/golang/">
+<base href="/" />
+<meta property="og:title" content="Golang" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/golang/" />
+
+
+
+<meta property="og:updated_time" content="2018-02-26T13:47:47&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Golang"/>
+<meta name="twitter:description" content=""/>
+
+
+
+<meta itemprop="name" content="Golang">
+<meta itemprop="description" content="">
+
+
+
+<style type="text/css">
+body {background-color: #282828;color: #FBF1C7;}a {color: #FBF1C7;}pre {background: #1D1F21;border: 1px solid #FBF1C7;border-radius: 5px;}code {background: #1D1F21;}blockquote {background: #1D1F21;border-left: 3px solid #FBF1C7;}table {margin: 1em auto;border-collapse: collapse;}table, th, td {border: 1px solid #FBF1C7;}th {background: #FBF1C7;color: #282828;}.siteTitle a {color: #458588;}.post .content h1{color: #458588;}.post .content h2{color: #458588;}.post .content h3{color: #458588;}.post .content h4{color: #458588;}.post .content h5{color: #458588;}.post .content h6{color: #458588;}.post .content a:hover {color: #458588;}.social-link:hover {color: #458588;}.nav-item-title:hover {color: #458588;}.tag a:hover {color: #458588;}.copyright {color: #FBF1C7}.poweredby {color: #FBF1C7}.poweredby a {color: #FBF1C7;}.post-preview .title a{color: #458588;}.content-item a:hover{text-decoration: underline;color: #458588;}.post-list .title {color: #458588;}.rmore {color: #458588;}.terms .term a:hover {text-decoration: underline;color: #458588;}
+
+.post .date,.post .title,figcaption,nav{text-align:center}body{font-family:Arial,Gadget,sans-serif;counter-reset:heading;margin:0;padding:1em .5em .5em}.main{margin:0 auto;max-width:42em}iframe,img{max-width:42em;display:block;margin-left:auto;margin-right:auto}figure{margin:0}figcaption{font-size:.9em;font-weight:700}h1,h2,h3,h4,h5,h6{font-weight:400}li{margin-top:.5em}p{padding-top:.5em;padding-bottom:.5em}h1{font-size:2em}h2{font-size:1.5em}h3{font-size:1.17em}h4{font-size:1.12em}h5{font-size:.83em}h6{font-size:.75em}a:active,a:focus,a:hover{outline:0}header{justify-content:space-around;flex-direction:column}nav{-webkit-justify-content:space-between;-webkit-flex-flow:column;display:flex;justify-content:space-between;flex-flow:column}.nav-item{font-size:1.2em;text-decoration:none;font-weight:700}.nav-item-title{padding:.2em}pre,td,th{padding:.5em}.nav-item-title:hover{text-decoration:underline}.poweredby a,.siteTitle a{text-decoration:none}pre{margin:1em 0}code{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;line-height:1.4em}blockquote{padding:.5em .5em .5em 1em}.siteTitle{font-size:2.5em;margin-bottom:.2em}.articleheader_data{-webkit-justify-content:space-between;-webkit-flex-flow:row wrap;display:flex;justify-content:space-between;flex-flow:row wrap}.post .content h1,.post .content h2,.post .content h3,.post .content h4,.post .content h5{margin:1em 0}.post .content p{margin:0}.post-footer-data{-webkit-flex-direction:column;-webkit-align-items:flex-end;display:flex;flex-direction:column;align-items:flex-end;margin:1em}.post-footer-data .date,.post-footer-data .tags{font-weight:700;font-size:.9em}.content-item .tags{margin-bottom:.2em;font-size:.7em}.content-item .date{font-size:.7em;font-weight:700;white-space:nowrap}.post-footer-menu{-webkit-justify-content:space-between;display:flex;justify-content:space-between;font-size:.8em;margin:.5em 4em}.copyright,.poweredby{font-size:smaller;text-align:center}.post-home a,.post-next a,.post-prev a{text-decoration:none;font-weight:700}.copyright{margin-top:1em}.content-list,.social-link{font-size:1.2em}.poweredby a{text-decoration:underline}.social-links-footer a,.social-links-header a{text-decoration:none}.err-404{margin:3em;text-align:center}.social-links-header{-webkit-justify-content:center;-webkit-flex-flow:row wrap;display:flex;justify-content:center;flex-flow:row wrap}.post-list,.social-links-footer{-webkit-justify-content:center;display:flex}.social-links-footer{text-align:center;-webkit-flex-flow:row wrap;justify-content:center;flex-flow:row wrap;margin-top:.5em}.social-link{margin:.2em}.social-link:hover{text-decoration:underline}.content-item a,.content-list-title a,.page-nav a,.post-preview,.post-preview a,.tag a,.term-list-title a,.terms a{text-decoration:none}.content-list-date{font-size:1.2em;margin-top:.5em;text-align:center}.post-preview .meta,.post-preview .tags{font-size:.8em;text-align:left;font-weight:700}.post-list{justify-content:space-between}.post-list .title{margin-bottom:0}.tag{display:inline-block}.post-preview .title{margin-bottom:.3em}.post-preview .summary{margin-top:.2em;line-height:1.4em}.post-preview .meta{padding-bottom:.3em;padding-top:.3em}.page-num,.term-list-title{text-align:center}.rmore{white-space:nowrap;padding:0 0 0 .3em}.terms a{font-size:1.2em}.terms .term{padding:.5em}.page-nav{-webkit-justify-content:center;-webkit-flex-flow:row wrap;display:flex;justify-content:center;flex-flow:row wrap;padding:1em;font-weight:700}.page-num{margin-left:1em;margin-right:1em}.content-list-title{text-align:center;margin-bottom:0}.sitemap{margin:auto;width:50%}@media only screen and (min-width:400px){.nav-item-title,.social-link{font-weight:700}nav{flex-flow:row wrap}.siteTitle{flex-grow:2;text-align:left;flex-basis:0}.nav-item-title{font-size:.85em}.social-links-header{font-size:.75em;-webkit-justify-content:left;-webkit-flex-flow:row wrap;justify-content:left;flex-flow:row wrap}.social-links-footer{text-align:center;-webkit-justify-content:center;-webkit-flex-flow:row wrap;justify-content:center;flex-flow:row wrap;font-size:.75em}}
+
+</style>
+
+
+
+<title>
+
+
+     Golang 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="/">antoine.network.</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="/post/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="/tags/"><div class="nav-item-title">Tags</div></a>
+    
+
+  </nav>
+</div>
+
+  
+<div class="social-links-header">
+
+  
+
+  
+  <a href="https://github.com/7fELF" target="_blank"><div class="social-link">gh</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/antoinebaudrand" target="_blank"><div class="social-link">twtr</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/antoinebaudrand" target="_blank"><div class="social-link">in</div></a>
+  
+
+</div>
+
+
+</header>
+
+
+<h2 class="content-list-title">
+    <a href="/tags/golang/" class="linktopost">Golang</a>
+</h2>
+
+<div class="content-list">
+
+<div class="content-list-date">2018</div>
+  
+  <div class="content-item">
+    <a href="/post/golang-developer-must-read/">
+    <div class="post-list"> <h3 class="title"> You have to read this if you are a Golang developer </h3> </div>
+    </a>
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="/tags/golang">#golang</a>
+      </div>
+    
+</div>
+
+    <div class="date"> Feb 26, 2018 </div>
+</div>
+
+  
+
+</div>
+
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+
+  
+  <a href="https://github.com/7fELF" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/antoinebaudrand" target="_blank"><div class="social-link">Twitter</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/antoinebaudrand" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Creative Commons Attribution 4.0 International License </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+

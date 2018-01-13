@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on antoine.network.</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on antoine.network.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Creative Commons Attribution 4.0 International License</copyright>
+    <lastBuildDate>Mon, 26 Feb 2018 13:47:47 +0100</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You have to read this if you are a Golang developer</title>
+      <link>/post/golang-developer-must-read/</link>
+      <pubDate>Mon, 26 Feb 2018 13:47:47 +0100</pubDate>
+      
+      <guid>/post/golang-developer-must-read/</guid>
+      <description>&lt;p&gt;This post is a continuously updated list of articles and videos that helped me a lot with Go.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Oauth2 Android</title>
+      <link>/post/oauth2-android/</link>
+      <pubDate>Tue, 06 Feb 2018 12:52:07 +0100</pubDate>
+      
+      <guid>/post/oauth2-android/</guid>
+      <description>&lt;p&gt;Quick memo on how to get a oauth2 callback code on android
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
