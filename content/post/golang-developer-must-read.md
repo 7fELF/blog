@@ -16,6 +16,8 @@ This post is a continuously updated list of articles and videos that helped me a
     - Slides: https://talks.golang.org/2014/names.slide
 - Effective Go: https://golang.org/doc/effective_go.html
 - Understand Concurrency: https://www.youtube.com/watch?v=cN_DpYBzKso
+- Go Proverbs - Rob Pike: https://www.youtube.com/watch?v=PAAkCSZUG1c
+
 
 # Language tips
 - Extend a struct: http://dennissuratna.com/using-anonymous-field-to-extend-in-go/
