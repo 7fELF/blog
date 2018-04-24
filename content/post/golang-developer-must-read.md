@@ -24,6 +24,9 @@ This post is a continuously updated list of articles and videos that helped me a
 - Iota aka Go's Enum: https://splice.com/blog/iota-elegant-constants-golang/
 - Miscellaneous Tips: https://www.youtube.com/watch?v=UECh7X07m6E
 
+# Tests
+- Testing Techniques: https://talks.golang.org/2014/testing.slide
+
 # Vim Plugins
 - https://github.com/fatih/vim-go
 
